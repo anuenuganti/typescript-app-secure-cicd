@@ -88,3 +88,7 @@ yarn build
 
 The build artifacts will be stored in the `dist/` directory.
 
+## CICD pipeline
+
+For details of the Pipeline steps, please check : [.github/workflows](.github/workflows)
+
