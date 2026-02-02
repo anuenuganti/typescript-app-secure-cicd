@@ -31,10 +31,9 @@ The workflow requires the following GitHub secrets:
 
 ## Continuous Deployment
 
-For full continuous deployment, you would need to:
+For full continuous deployment, follow below steps:
 
-1. Set up a Kubernetes operator like Flux or ArgoCD to watch for changes in the repository
-2. Configure it to automatically apply changes to the Kubernetes manifests
+1. Install 'ArgoCD' in the Cluster and create CRD(Application) to configure source Repo and watch for changes in the repository
 3. This would complete the CI/CD pipeline by automatically deploying the new image to your Kubernetes cluster
 
 ## Manual Deployment
