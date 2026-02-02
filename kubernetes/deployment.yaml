@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tic-tac-toe
-        image: ghcr.io/anuenuganti/typescript-app-secure-cicd:sha-fbe4791a81ba62c425a8a61e739febcf107edac5
+        image: ghcr.io/anuenuganti/typescript-app-secure-cicd:sha-b69ee89184a4c1e2844c393ae92c73a99bc7fe7f
         # Image will be automatically updated by CI/CD pipeline
         imagePullPolicy: Always
         ports:
